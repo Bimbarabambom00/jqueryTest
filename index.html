@@ -1,0 +1,19 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="z" style="width: 100px; height: 100px; background: coral;"></div>
+        <div id="x" style="width: 100px; height: 500px; background: aquamarine; display: none;"></div>
+        <video width="320" height="240" id="vid" controls>
+            <source src="Moments-clip-from-Jan-29,-2022.mp4" type="video/mp4">
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#vid").ready(function () {
+            console.log( "ready!" );
+            });
+        });
+    </script>
+</html>
